@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='utf-8'?>
+<DATA model='Delta Tool QR explanations' version='1.0.0.0' scope='DELTA_SNAPSHOT_DATA' export='OK'>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>1011010</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Logical File without associated Physical File  (DDS400)</QR_NAME>
+    <QR_VERSION>2.0.2</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-521</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>1011014</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unreferenced Physical file  (DDS400)</QR_NAME>
+    <QR_VERSION>2.0.2</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-521</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>1008084</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using obsolete "Conditional Operations" statements in RPG Subroutines (RPG-IV only)  (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.2</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-516</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>1008092</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using obsolete "Call Operations" statements in RPG Programs (RPG-IV only)  (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.2</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-523</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>1008040</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unreferenced Subroutines  (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.2</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-517</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>1008126</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid defining File Disk if not used (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.2</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-518</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>1008124</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unreferenced Copy Members (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.2</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-520</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+<!--
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID></QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unreferenced Copy Members (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.1</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-507 Subroutines are not created when a special character is before the control character</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID></QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unreferenced Copy Members (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.1</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-508 Mainsection is not at the right position when the program has some free format comments</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID></QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unreferenced Copy Members (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.1</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-509 Empty comment lines are not trasnformed by the preprocessor</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID></QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unreferenced Copy Members (RPG400)</QR_NAME>
+    <QR_VERSION>2.0.1</QR_VERSION>
+    <QR_SQL>xxx</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOCEXT/RPG+2.0+-+Bug+Fix+List</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>RPG-511 Mixed format for begsr and endsr</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+-->
+</DATA>
+	
+	

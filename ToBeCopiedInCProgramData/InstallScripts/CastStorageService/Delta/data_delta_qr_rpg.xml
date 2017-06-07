@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATA model='Delta Tool QR explanations' version='1.0.0.0' scope='DELTA_SNAPSHOT_DATA' export='OK'>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012010</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>MONMSG command must be formated    (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012012</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with High Cyclomatic Complexity    (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012014</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid locking object by ALCOBJ command    (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012016</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced CL Programs  (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012018</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid use of DLYJOB  (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012020</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid use of RCLRSC  (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012022</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid use of *NOMAX  (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012024</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid use of OPNQRYF  (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1012026</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Do not use MONMSG CPF0000 without EXEC  (CL400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011010</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Logical File without associated Physical File  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011014</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Physical file  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011016</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Logical file  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011018</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Logical Files using DYNSLT  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011022</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Physical files with more than X associated LF  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011024</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Physical files with more than X fields  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011026</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Display Files  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011028</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Printer Files  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1011030</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Physical files with fields defined locally  (DDS400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009014</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with High Fan-In   (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009016</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with High Fan-In  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009020</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with High Fan-Out  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009022</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with High Fan-Out  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009026</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using internally described files  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009028</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with High Cyclomatic Complexity  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009030</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with High Cyclomatic Complexity  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009034</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with nested if Statements  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009038</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Programs  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009040</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Subroutines  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009042</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid undocumented RPG300 Programs  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009048</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with a very low comment/code ratio  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009054</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with COUNT(*) statement  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009056</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs With Queries on more than 4 Tables  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009058</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs With Queries using GROUP BY  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009060</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with SELECT * statement  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009062</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with Subqueries  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009064</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with too many FROM Clauses  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009066</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with too many WHERE Clauses  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009068</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using NOT EXISTS  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009070</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using NOT IN  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009072</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using dynamic SQL (EXECUTE IMMEDIATE)  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009074</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Specify Error Subroutine for File Exception Handling  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009090</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete Bit Operations"" statements in RPG Programs  (RPG300)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009098</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using plain END statement, use the explained END statement like ENDIF, ENDDO, etc  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009110</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with more than X Subroutines  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009112</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with more than X LoC and no Subroutines  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009118</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with more than X lines of code  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009120</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with more than X lines of code  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009124</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Copy Members  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1009126</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid defining File Disk if not used  (RPG300)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008014</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with High Fan-In  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008016</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with High Fan-In  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008018</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Procedures with High Fan-In  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008020</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with High Fan-Out  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008022</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with High Fan-Out  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008024</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Procedures with High Fan-Out  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008026</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using internally described files  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008028</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with High Cyclomatic Complexity  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008030</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with High Cyclomatic Complexity  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008032</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Procedures with High Cyclomatic Complexity  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008034</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with nested IF  statements  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008038</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Programs  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008040</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Subroutines  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008042</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid undocumented RPG400 Programs  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008048</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with a very low comment/code ratio  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008054</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with COUNT(*) statement  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008056</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs With Queries on more than 4 Tables  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008058</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs With Queries using GROUP BY  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008060</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with SELECT * statement  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008062</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with Subqueries  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008064</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with too many FROM Clauses  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008066</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with too many WHERE Clauses  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008068</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using NOT EXISTS  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008070</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using NOT IN  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008072</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using dynamic SQL (EXECUTE IMMEDIATE)  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008074</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Specify Error Subroutine for File Exception Handling  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008076</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Specify Program Status Data Area  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008078</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete Arithmetic Operations"" Statement in RPG Programs (RPG-IV only)  (RPG400)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008080</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete String Operations"" statements in RPG Programs (RPG-IV only)  (RPG400)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008082</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete Assignment Operations"" statements in RPG Programs (RPG-IV only)  (RPG400)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008084</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete Conditional Operations"" statements in RPG Subroutines (RPG-IV only)  (RPG400)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008086</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete Date Operations"" statements in RPG Programs (RPG-IV only)  (RPG400)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008088</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete Definition/Allocation/Array Operations"" statements in RPG Programs (RPG-IV only)  (RPG400)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008090</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete Bit Operations"" statements in RPG Programs  (RPG400)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008092</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using obsolete Call Operations"" statements in RPG Programs (RPG-IV only)  (RPG400)""</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008096</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Better to use QUALIFIED data structures  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008098</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using plain END statement, use the explained END statement like ENDIF, ENDDO, etc  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008100</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using O-spec; use Printer Files instead  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008102</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using I-spec (RPG-IV only)  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008104</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid obsolete E-spec  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008106</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid obsolete L-spec  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008108</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid using GOTO statement in RPG Programs  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008110</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with more than X Subroutines  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008112</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with more than X LoC and no Subroutines  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008114</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with more than X Data Structures  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008118</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Programs with more than X lines of code  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008120</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Subroutines with more than X lines of code  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008122</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid Procedures with more than X lines of code  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008124</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Copy Members  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1008126</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid defining File Disk if not used  (RPG400)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1006000</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid scripts using SQL static statements (Shell)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1006002</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid scripts and functions with SQL code in temporary files (Shell)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1006004</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Programs  (Shell)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1006006</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid unreferenced Functions  (Shell)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1006008</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid programs with low comment / code ratio  (Shell)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1006010</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid script without interpretor access path  (Shell)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1006012</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Avoid functions without returning exit code  (Shell)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+  <DELTA_QR_COMPONENT>
+    <QR_ID>1006014</QR_ID>
+    <QR_COMPONENT>com.castsoftware.rpg</QR_COMPONENT>
+    <QR_NAME>Function should not be named as UNIX commands  (Shell)</QR_NAME>
+    <QR_VERSION>1.0.0</QR_VERSION>
+  </DELTA_QR_COMPONENT>
+</DATA>
+
