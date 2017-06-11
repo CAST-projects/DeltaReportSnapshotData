@@ -5251,4 +5251,314 @@
     <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC81/Changes+in+results+post+upgrade+-+8.1.1#Changesinresultspostupgrade-8.1.1-AvoidnamespaceswithHighAfferentCoupling(CA)(7264)andAvoidNamespaceswithHighEfferentCoupling(CE)(7262)</QR_DELTA_LINK>
     <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rules listed above to produce erroneous results: the query used to compute the total number of namespaces was incorrect and instead the total number of classes was being calculated. This was leading to situations where the total number of checks was less than the number of failed checks for these Quality Rules.</QR_DELTA_EXPLANATION>
   </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7806</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid artifacts with Group By</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuletechnologychanges</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Now configured to include .NET technologies: C# and VB.NET.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7662</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries on XXL Tables with implicit conversions in the WHERE clause</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuletechnologychanges</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Were previously configured for All Languages/Technologies, now only configured for SQL technologies: ABAP, DB2 Server, Forms, Microsoft T-SQL, PL/SQL, SQL Server, Sybase T-SQL</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7420</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries with implicit conversions in the WHERE clause</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuletechnologychanges</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Were previously configured for All Languages/Technologies, now only configured for SQL technologies: ABAP, DB2 Server, Forms, Microsoft T-SQL, PL/SQL, SQL Server, Sybase T-SQL</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7660</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Never use SQL queries with a cartesian product on XXL Tables</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuletechnologychanges</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Were previously configured for All Languages/Technologies, now only configured for SQL technologies: ABAP, DB2 Server, Forms, Microsoft T-SQL, PL/SQL, SQL Server, Sybase T-SQL</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7778</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Artifacts with High Fan-Out</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AvoidArtifactswithHighFan-Out-7778</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>After an upgrade to CAST AIP 8.0.0, a subsequent re-analysis of source code and a snapshot generation you may find that the number of objects violating the Avoid Artifacts with High Fan-Out - 7778 Quality Rule decreases. This is due to a change in the SQL procedure that calculates the Quality Rule: inherit links are no longer included in the calculation, therefore less links are considered in the scope of the Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7488</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Use lazy fetching for collection</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Uselazyfetchingforcollection(7488),Avoidtableandcolumnnamesthataretoolong(portability)(7706),AvoiddatabasetablesassociatedtomorethanoneEntity(7654)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Due to the support of Hibernate 4/JPA 2.0, collections of Basic or Embeddable types are supported. Therefore after an upgrade to CAST AIP 8.0.0, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7706</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid table and column names that are too long (portability)</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Uselazyfetchingforcollection(7488),Avoidtableandcolumnnamesthataretoolong(portability)(7706),AvoiddatabasetablesassociatedtomorethanoneEntity(7654)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Due to the support of Hibernate 4/JPA 2.0, collections of Basic or Embeddable types are supported. Therefore after an upgrade to CAST AIP 8.0.0, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7654</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid database tables associated to more than one Entity</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Uselazyfetchingforcollection(7488),Avoidtableandcolumnnamesthataretoolong(portability)(7706),AvoiddatabasetablesassociatedtomorethanoneEntity(7654)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Due to the support of Hibernate 4/JPA 2.0, collections of Basic or Embeddable types are supported. Therefore after an upgrade to CAST AIP 8.0.0, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>2230</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Use of style sheets</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Useofstylesheets-2230</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, some code was being reported as violating the Quality Rule Use of style sheets - 2230, despite the fact that a .CSS file was being specified in the code. These false positives have now been corrected and after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for the Quality Rule decreases.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>2232</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Pages should use error handling page</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Pagesshoulduseerrorhandlingpage-2232</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, some JSP files were being reported as violating the Quality Rule Pages should use error handling page, despite the fact that a errorpage tag reference was specified in the code. These false positives have now been corrected and after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for the Quality Rule decreases.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7444</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Serialize session objects</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Serializesessionobjects-7444</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, some code was incorrectly being reported as violating the Quality Rule Serialize session objects - 7444. These false positives have now been corrected and after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for the Quality Rule decreases.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7148</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>JSP pages should always be accessed through their tiles definition</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-JSPpagesshouldalwaysbeaccessedthroughtheirtilesdefinition-7148</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, code that was violating the Quality Rule JSP pages should always be accessed through their tiles definition - 7148 was not reported as a violation. This bug has now been corrected and after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for the Quality Rule increases.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>4656</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid declaring throwing an exception and not throwing it</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>False positives have been removed.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7196</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid large number of String concatenation</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Increased number of violations due to improved accuracy in the counting of the "+" operator.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7824</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>The exception Exception should never been thrown. Always Subclass Exception and throw the subclassed Classes</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Increased number of violations due to improved accuracy.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7800</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Classes with High Coupling Between Objects</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Increased number of violations due to improved accuracy in the discovery of links to exception code.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7220</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Unused Imports</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>False positives have been removed due to improved accuracy in the discovery of links to exception code.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7246</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Packages with High Efferent Coupling (CE)</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>False positives have been removed.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8108</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Close the outermost stream ASAP</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>False positives have been removed.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7498</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Collection must be the same between getter and setter</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>False positives have been removed.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>2284</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid large JSP Pages - too many Scriptlets</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Increased number of violations due to improved accuracy in identification of scriptlets.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7238</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid calls between JSP Pages</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Increased number of violations due to improved accuracy.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>4612</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using native Methods (JNI)</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>False positives have been removed.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7192</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Form Bean must extend Validator Class</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Duplicate violations have been removed, improving accuracy.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7146</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>JSP pages should only reference Java Objects associated to J2EE Scoped Bean</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>The number of associated values has reduced improving accuracy.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>4602</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using Fields (non static final) from other Classes</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>The number of associated values has increased improving accuracy.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7308</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using Inner Classes</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-QualityRuleresultimprovementsduetobugfixesandmodifications</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>The number of associated values has increased improving accuracy.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7678</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using specific logging implementation</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU2EffectsofchangesmadetoJ2EEAnalysisUnitsandExecutionUnitsinCASTAIP8.0.x</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Due to a change in the way J2EE Analysis Units containing differing analysis configurations are analyzed in CAST AIP 8.0.x - all in one Execution Unit rather than in multiple Execution Units (see http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU) - you may find that after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation, the number of violations for the Quality Rule changes (there may be more or less violations). These removed and added violations are all positive improvements, in other words the list of violations is more accurate than in previous releases of CAST AIP.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>4574</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using deprecated objects</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU2EffectsofchangesmadetoJ2EEAnalysisUnitsandExecutionUnitsinCASTAIP8.0.x</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Due to a change in the way J2EE Analysis Units containing differing analysis configurations are analyzed in CAST AIP 8.0.x - all in one Execution Unit rather than in multiple Execution Units (see http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU) - you may find that after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation, the number of violations for the Quality Rule changes (there may be more or less violations). These removed and added violations are all positive improvements, in other words the list of violations is more accurate than in previous releases of CAST AIP.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7254</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Declare as static all Methods not using Instance Fields</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU2EffectsofchangesmadetoJ2EEAnalysisUnitsandExecutionUnitsinCASTAIP8.0.x</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Due to a change in the way J2EE Analysis Units containing differing analysis configurations are analyzed in CAST AIP 8.0.x - all in one Execution Unit rather than in multiple Execution Units (see http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU) - you may find that after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation, the number of violations for the Quality Rule changes (there may be more or less violations). These removed and added violations are all positive improvements, in other words the list of violations is more accurate than in previous releases of CAST AIP.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8100</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Blocking synchronous calls should have associated timeouts</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU2EffectsofchangesmadetoJ2EEAnalysisUnitsandExecutionUnitsinCASTAIP8.0.x</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Due to a change in the way J2EE Analysis Units containing differing analysis configurations are analyzed in CAST AIP 8.0.x - all in one Execution Unit rather than in multiple Execution Units (see http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU) - you may find that after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation, the number of violations for the Quality Rule changes (there may be more or less violations). These removed and added violations are all positive improvements, in other words the list of violations is more accurate than in previous releases of CAST AIP.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
 </DATA>
