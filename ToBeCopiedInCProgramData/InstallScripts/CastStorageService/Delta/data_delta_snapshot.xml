@@ -5561,4 +5561,134 @@
     <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU2EffectsofchangesmadetoJ2EEAnalysisUnitsandExecutionUnitsinCASTAIP8.0.x</QR_DELTA_LINK>
     <QR_DELTA_EXPLANATION>Due to a change in the way J2EE Analysis Units containing differing analysis configurations are analyzed in CAST AIP 8.0.x - all in one Execution Unit rather than in multiple Execution Units (see http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AU) - you may find that after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation, the number of violations for the Quality Rule changes (there may be more or less violations). These removed and added violations are all positive improvements, in other words the list of violations is more accurate than in previous releases of CAST AIP.</QR_DELTA_EXPLANATION>
   </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7824</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>The exception Exception should never been thrown. Always Subclass Exception and throw the subclassed Classes</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-TheexceptionExceptionshouldneverbeenthrown.AlwaysSubclassExceptionandthrowthesubclassedClasses-7824</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Due to the introduction of a brand new .NET analyzer the Quality Rule "The exception Exception should never been thrown. Always Subclass Exception and throw the subclassed Classes - 7824" will produce more accurate results than in previous releases of CAST AIP. Therefore after an upgrade to CAST AIP 8.0.0, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for this Quality Rule decrease.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7934</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Superclass (or Interface) knowing Subclass (or Interface)</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AvoidSuperclass(orInterface)knowingSubclass(orInterface)-7934</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, Interfaces were excluded from the scope (only classes were taken into account). This has now been rectified, and "Avoid Superclass (or Interface) knowing Subclass (or Interface) - 7934" will produce more accurate results than in previous releases of CAST AIP. Therefore after an upgrade to CAST AIP 8.0.0, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for this Quality Rule increases.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>3572</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Controls naming convention - prefix, case and character set control</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Controlsnamingconvention-prefix,caseandcharactersetcontrol-3572</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, VB.NET controls are resolved as objects in their own right, however, in CAST AIP 8.0.0, some of these objects are now resolved as properties. Therefore after an upgrade to CAST AIP 8.0.0, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for this Quality Rule changes.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>3570</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using Keywords as names</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AvoidusingKeywordsasnames-3570</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>The Quality Rule Avoid using Keywords as names - 3570 is new in CAST AIP 8.0.x. Therefore after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that the global number of violations may change.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7774</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Artifacts with High Integration Complexity</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-AvoidArtifactswithHighIntegrationComplexity-7774</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, the Avoid Artifacts with High Integration Complexity - 7774 Quality Rule was not calculated correctly. This issue has now been resolved. Therefore after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that the number of violations for this Quality Rule changes.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7788</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid empty catch blocks</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Avoidemptycatchblocks-7788</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, a violation of the Avoid empty catch blocks - 7788 Quality Rule would produce a bookmark on the entire artifact. This behaviour has changed in CAST AIP: bookmarks are placed on the catch and finally blocks, to make the violation more accurate.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>10151</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Number of code lines</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Numberofcodelines-10151</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>If your .NET project contains ASP.NET code, you may find that after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that the number of lines of code has increased. This is due to a change in the way code generated from ASP files are considered by the .NET analyzer.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>3612</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Close SQL connection ASAP</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-CloseSQLconnectionASAP-3612</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, this Quality Rule was only implemented for VB.NET technology. In CAST AIP 8.0.x, the Quality Rule now also functions for C# and is set as Critical. As such, after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that you have more critical violations for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7198</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid String concatenation in loops</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-CloseSQLconnectionASAP-3612</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP, this Quality Rule was set as Critical for both the VB.NET and C# technologies. In CAST AIP 8.0.x, the Quality Rule is now set as non-Critical. As such, after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you will find that - 1. the overall number of Critical violations decreases. 2. violations for the Quality Rule itself will no longer be flagged as Critical.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7690</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unchecked return code (SQLCODE) after EXEC SQL query</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-Avoiduncheckedreturncode(SQLCODE)afterEXECSQLquery-7690</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>The Quality Rule Avoid unchecked return code (SQLCODE) after EXEC SQL query - 7690 was previously and erroneously set to "non-critical". In CAST AIP 8.0.x this has been fixed and the Quality Rule is now set correctly to "critical". Therefore after an upgrade to CAST AIP 8.0.x, a subsequent re-analysis of source code and a snapshot generation you may find that the grades for this Quality Rule change.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>10109</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Number of Commented Code Lines</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-SAP/ABAP</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>After an upgrade to CAST AIP 8.0.x from any CAST AIP 7.3.x release, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7126</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Artifacts with high Commented-out Code Lines/Code Lines ratio</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-SAP/ABAP</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>After an upgrade to CAST AIP 8.0.x from any CAST AIP 7.3.x release, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7156</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Too Many Copy Pasted Artifacts</QR_NAME>
+    <QR_VERSION>8.0.0</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-SAP/ABAP</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>After an upgrade to CAST AIP 8.0.x from any CAST AIP 7.3.x release, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
 </DATA>
