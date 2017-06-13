@@ -5691,4 +5691,274 @@
     <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.0#Changesinresultspostupgrade-8.0.0-SAP/ABAP</QR_DELTA_LINK>
     <QR_DELTA_EXPLANATION>After an upgrade to CAST AIP 8.0.x from any CAST AIP 7.3.x release, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
   </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7422</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries that no index can support</QR_NAME>
+    <QR_VERSION>8.0.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.2#Changesinresultspostupgrade-8.0.2-AvoidSQLqueriesthatnoindexcansupport(7422)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rule "Avoid SQL queries that no index can support" (7422) to produce false negatives if the rule "Avoid SQL queries not using the first column of a composite index in the WHERE clause" (7428) is violated. This bug has now been fixed and after an upgrade to CAST AIP 8.0.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7964</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid directly instantiating a Class used as a Spring bean</QR_NAME>
+    <QR_VERSION>8.0.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.2#Changesinresultspostupgrade-8.0.2-AvoiddirectlyinstantiatingaClassusedasaSpringbean(7964)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rule "Avoid directly instantiating a Class used as a Spring bean" (7964) to produce erroneous results: violations are being detected on Java Methods, whereas the "total" value for this Quality Rule is detected on Spring Beans leading to situations where the total number of checks is less than the number of failed checks for this Quality Rule. This bug has now been fixed and after an upgrade to CAST AIP 8.0.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>3562</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Private Fields naming convention - case and character set control</QR_NAME>
+    <QR_VERSION>8.0.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.2#Changesinresultspostupgrade-8.0.2-MultipleQualityRules-totalnumberofchecksisalwayslessthanthenumberoffailedchecks</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rules listed above to produce erroneous results: the total number of checks is always less than the number of failed checks. This bug has now been fixed and after an upgrade to CAST AIP 8.0.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>3564</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Public Fields naming convention - case and character set control</QR_NAME>
+    <QR_VERSION>8.0.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.2#Changesinresultspostupgrade-8.0.2-MultipleQualityRules-totalnumberofchecksisalwayslessthanthenumberoffailedchecks</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rules listed above to produce erroneous results: the total number of checks is always less than the number of failed checks. This bug has now been fixed and after an upgrade to CAST AIP 8.0.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>3568</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Events naming convention - case and character set control</QR_NAME>
+    <QR_VERSION>8.0.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.2#Changesinresultspostupgrade-8.0.2-MultipleQualityRules-totalnumberofchecksisalwayslessthanthenumberoffailedchecks</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rules listed above to produce erroneous results: the total number of checks is always less than the number of failed checks. This bug has now been fixed and after an upgrade to CAST AIP 8.0.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>4602</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using Fields (non static final) from other Classes</QR_NAME>
+    <QR_VERSION>8.0.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.2#Changesinresultspostupgrade-8.0.2-AvoidusingFields(nonstaticfinal)fromotherClasses(4602)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rule "Avoid using Fields (non static final) from other Classes" (4602) to produce false positives: violations are being detected when the source code uses fields from a parent Class. This bug has now been fixed and after an upgrade to CAST AIP 8.0.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7428</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries not using the first column of a composite index in the WHERE clause</QR_NAME>
+    <QR_VERSION>8.0.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.2#Changesinresultspostupgrade-8.0.2-AvoidSQLqueriesnotusingthefirstcolumnofacompositeindexintheWHEREclause(7428)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rule "Avoid SQL queries not using the first column of a composite index in the WHERE clause" (7428) to produce false negatives despite the fact that a Cobol paragraph does a select on a column that is not the first column of the index. This bug has now been fixed and after an upgrade to CAST AIP 8.0.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7262</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Namespaces with High Efferent Coupling (CE)</QR_NAME>
+    <QR_VERSION>8.0.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.3#Changesinresultspostupgrade-8.0.3-AvoidnamespaceswithHighAfferentCoupling(CA)(7264)andAvoidNamespaceswithHighEfferentCoupling(CE)(7262)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rules listed above to produce erroneous results: the query used to compute the total number of namespaces was incorrect and instead the total number of classes was being calculated. This was leading to situations where the total number of checks was less than the number of failed checks for these Quality Rules. This bug has now been fixed and after an upgrade to CAST AIP 8.0.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rules.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7264</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid namespaces with High Afferent Coupling (CA)</QR_NAME>
+    <QR_VERSION>8.0.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.3#Changesinresultspostupgrade-8.0.3-AvoidnamespaceswithHighAfferentCoupling(CA)(7264)andAvoidNamespaceswithHighEfferentCoupling(CE)(7262)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rules listed above to produce erroneous results: the query used to compute the total number of namespaces was incorrect and instead the total number of classes was being calculated. This was leading to situations where the total number of checks was less than the number of failed checks for these Quality Rules. This bug has now been fixed and after an upgrade to CAST AIP 8.0.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rules.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7722</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using references to the id in the persistent class's method equals()</QR_NAME>
+    <QR_VERSION>8.0.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.3#Changesinresultspostupgrade-8.0.3-Avoidusingreferencestotheidinthepersistentclass'smethodequals()(7722)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rule listed above to produce false positive violations when the source code contains an id that is natural (i.e. not containing the annotation @generatedValue). This bug has now been fixed and after an upgrade to CAST AIP 8.0.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8112</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid improper processing of the execution status of data handling operation</QR_NAME>
+    <QR_VERSION>8.0.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.3#Changesinresultspostupgrade-8.0.3-Avoidimproperprocessingoftheexecutionstatusofdatahandlingoperation(8112)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rule listed above to produce false positive violations when the source code contains a try...catch clause with a throw statement. The throw was incorrectly considered as "improper processing" causing the Quality Rule to be violated. This bug has now been fixed and after an upgrade to CAST AIP 8.0.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7420</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries with implicit conversions in the WHERE clause</QR_NAME>
+    <QR_VERSION>8.0.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.3#Changesinresultspostupgrade-8.0.3-AvoidSQLquerieswithimplicitconversionsintheWHEREclause(7420)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rule listed above to produce erroneous total checks vs. failed checks results: the number of failed checks was higher than the number of total checks. This bug was due to a configuration issue in the Quality Rule calculation and it has now been fixed. After an upgrade to CAST AIP 8.0.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7388</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid artifacts having recursive calls</QR_NAME>
+    <QR_VERSION>8.0.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.3#Changesinresultspostupgrade-8.0.3-(7388)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In the context of a PL/SQL analysis, a bug was detected that caused the rule listed above to produce false positive violations when an overloaded function was used. The analyzer did not correctly understand a situation where a procedure is calling another procedure with the same name, but a different parameter. This bug has now been fixed and after an upgrade to CAST AIP 8.0.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7420</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries with implicit conversions in the WHERE clause</QR_NAME>
+    <QR_VERSION>8.0.4</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.4#Changesinresultspostupgrade-8.0.4-AvoidSQLquerieswithimplicitconversionsintheWHEREclause(7420)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that is causing the rule listed above to produce erroneous results. This bug has now been fixed and after an upgrade to CAST AIP 8.0.4 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7428</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries not using the first column of a composite index in the WHERE clause</QR_NAME>
+    <QR_VERSION>8.0.4</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.4#Changesinresultspostupgrade-8.0.4-AvoidSQLqueriesnotusingthefirstcolumnofacompositeindexintheWHEREclause(7428)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected in previous releases of CAST AIP where violations of the above Quality Rule were incorrectly flagged (artifacts are flagged as violating the Quality Rule even though they do in fact use an index). This bug has now been fixed and after an upgrade to CAST AIP 8.0.4 and the generation of a new snapshot, you may find that the number of violations for this Quality Rule changes.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7690</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unchecked return code (SQLCODE) after EXEC SQL query</QR_NAME>
+    <QR_VERSION>8.0.4</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.4#Changesinresultspostupgrade-8.0.4-Avoiduncheckedreturncode(SQLCODE)afterEXECSQLquery(7690)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>In previous releases of CAST AIP the Quality Rule listed above was not able to correctly handle EVALUATE/WHEN and IF (when a MOVE command is inserted before the EXEC-SQL) clauses causing false positive violations. This bug has now been fixed and after an upgrade to CAST AIP 8.0.4 and the generation of a new snapshot, you may find that Quality Rule results are different.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8014</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid unchecked return code (SY-SUBRC) after AUTHORITY-CHECK</QR_NAME>
+    <QR_VERSION>8.0.4</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.4#Changesinresultspostupgrade-8.0.4-Avoiduncheckedreturncode(SY-SUBRC)afterAUTHORITY-CHECK(8014)</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>Improvements have been made to the algorithm that calculates the above Quality Rule and after an upgrade to CAST AIP 8.0.4 and the generation of a new snapshot, you may find that there are less violations for this Quality Rule. This is an improvement: violations are no longer flagged when the statement is in a CASE...WHEN and the CHECK statement is just after the CASE...WHEN.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>4678</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Methods must have appropriate JavaDoc @exception tags</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-MethodsmusthaveappropriateJavaDoc@exceptiontags-4678</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered which has meant that objects containing JavaDoc @throws tags are being incorrectly flagged as violating the Quality Rule "Methods must have appropriate JavaDoc @exception tags - 4678". The bug has now been fixed (@throws are now correctly detected) and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>4576</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Provide accessors to Private Fields</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-ProvideaccessorstoPrivateFields-4576</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered in the way that this Quality Rule is calculated, which can lead to false violations of the rule (private fields that do contain accessors are still violating the rule). The bug has now been fixed and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7798</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Classes with a High Lack of Cohesion</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-AvoidClasseswithaHighLackofCohesion-7798</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered which has meant that Java Enums are included in the scope of objects considered by the Quality Rule "Avoid Classes with a High Lack of Cohesion - 7798". The bug has now been fixed (Java Enums have been removed from the scope) and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8086</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid types that own disposable fields and are not disposable</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-Avoidtypesthatowndisposablefieldsandarenotdisposable-8086</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing Brushes classes to wrongly violate the Quality Rule "Avoid types that own disposable fields and are not disposable - 8086". This bug has now been fixed (Brushes are no excluded from the scope of this Quality Rule) and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8030</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Check alphanumeric data before moving it into numeric data</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-Checkalphanumericdatabeforemovingitintonumericdata-8030</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing the false violation of the Quality Rule "Check alphanumeric data before moving it into numeric data - 8030". The Quality Rule was falsely being violated when the syntax "pic x(01)" is used and "x" is written in lowercase. This bug has now been fixed (the Quality Rule will correctly interpret the use of lowercase "x") and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7902</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries that no index can support</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-AvoidSQLqueriesthatnoindexcansupport-7902</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing the false violation of the Quality Rule "Avoid SQL queries that no index can support - 7902". The Quality Rule is falsely being violated when indexes covering the queries exist. This bug has now been fixed and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7156</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Too Many Copy Pasted Artifacts</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-AvoidTooManyCopyPastedArtifacts-7156</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered in the way that this Quality Rule is calculated, which can lead to false violations of the rule (the number of failed checks may exceed the total number of checks). The bug has now been fixed and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>6110</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Controls must inherit from a userobject</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-Controlsmustinheritfromauserobject-6110</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered in the way that this Quality Rule is calculated, which can lead to false violations of the rule (objects that already inherit from a userobject are being flagged as violations). The bug has now been fixed and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7670</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid accessing SAP standard Tables in modification from custom code</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-AvoidaccessingSAPstandardTablesinmodificationfromcustomcode-7670</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered which has meant that CAST considers SAP tables with the prefix "pa9" and "hrp9" to be "standard" tables. However, this is contrary to the SAP recommendations. These tables are therefore falsely violating the Quality Rule "Avoid accessing SAP standard Tables in modification from custom code". The bug has now been fixed and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7672</QR_ID>
+    <QR_DELTA_TYPE>0</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using EXIT statement in Include</QR_NAME>
+    <QR_VERSION>8.0.5</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC80/Changes+in+results+post+upgrade+-+8.0.5#Changesinresultspostupgrade-8.0.5-AvoidusingEXITstatementinInclude-7672</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered which has meant that EXIT statements located in a Form within an include are falsely violating the Quality Rule. The bug has now been fixed (EXIT statements located in a Form within an include will not violate the Quality Rule) and after an upgrade to CAST AIP 8.0.5 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
 </DATA>
