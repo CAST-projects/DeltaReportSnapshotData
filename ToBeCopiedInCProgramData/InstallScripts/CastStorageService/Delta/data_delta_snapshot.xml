@@ -6059,6 +6059,17 @@
     <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.0#Changesinresultspostupgrade-8.2.0-AU2EffectsofchangesmadetoJ2EEAnalysisUnitsandExecutionUnitsinCASTAIP8.2.x</QR_DELTA_LINK>
     <QR_DELTA_EXPLANATION>Due to a change in the way J2EE Analysis Units containing differing analysis configurations are analyzed in CAST AIP 8.2.x - all in one Execution Unit rather than in multiple Execution Units - you may find that after an upgrade to CAST AIP 8.2.x (from 7.3.x only) a subsequent re-analysis of source code and a snapshot generation, the number of violations for this Quality Rule (there may be more or less violations)</QR_DELTA_EXPLANATION>
   </DELTA_QR_EXPLANATIONS>
+  <!-- For 8.2.1 -->
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8034</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Variables defined in Working-Storage section must be initialized before to be read</QR_NAME>
+    <QR_VERSION>8.2.1</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.1#Changesinresultspostupgrade-8.2.1-VariablesdefinedinWorking-Storagesectionmustbeinitializedbeforetoberead-8034</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered that can cause the false violation of the Quality Rule "Variables defined in Working-Storage section must be initialized before to be read": vhen variables are defined in lower level, CAST AIP doesn't see the "INITIALIZE". The bug has now been fixed and after an upgrade to CAST AIP 8.2.1 and the generation of a post upgrade snapshot, results may differ for this Quality Rule: you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
   <!-- For 8.2.2 -->
   <DELTA_QR_EXPLANATIONS>
     <QR_ID>4578</QR_ID>
