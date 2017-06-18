@@ -5847,6 +5847,37 @@
     <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC81/Changes+in+results+post+upgrade+-+8.1.2#Changesinresultspostupgrade-8.1.2-AvoidusingEXITstatementinInclude-7672</QR_DELTA_LINK>
     <QR_DELTA_EXPLANATION>A bug has been discovered which has meant that EXIT statements located in a Form within an include are falsely violating the Quality Rule. The bug has now been fixed (EXIT statements located in a Form within an include will not violate the Quality Rule) and after an upgrade to CAST AIP 8.1.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
   </DELTA_QR_EXPLANATIONS>
+  <!-- For 8.1.3 -->
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8030</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Check alphanumeric data before moving it into numeric data</QR_NAME>
+    <QR_VERSION>8.1.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC81/Changes+in+results+post+upgrade+-+8.1.3#Changesinresultspostupgrade-8.1.3-Checkalphanumericdatabeforemovingitintonumericdata-8030</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing the false violation of the Quality Rule "Check alphanumeric data before moving it into numeric data - 8030". The Quality Rule was falsely being violated when the syntax "pic x(01)" is used and "x" is written in lowercase. This bug has now been fixed (the Quality Rule will correctly interpret the use of lowercase "x") and after an upgrade to CAST AIP 8.1.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7902</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries that no index can support</QR_NAME>
+    <QR_VERSION>8.1.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC81/Changes+in+results+post+upgrade+-+8.1.3#Changesinresultspostupgrade-8.1.3-AvoidSQLqueriesthatnoindexcansupport-7902</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing the false violation of the Quality Rule "Avoid SQL queries that no index can support - 7902". The Quality Rule is falsely being violated when indexes covering the queries exist. This bug has now been fixed and after an upgrade to CAST AIP 8.1.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8086</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid types that own disposable fields and are not disposable</QR_NAME>
+    <QR_VERSION>8.1.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC81/Changes+in+results+post+upgrade+-+8.1.3#Changesinresultspostupgrade-8.1.3-Avoidtypesthatowndisposablefieldsandarenotdisposable-8086</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing Brushes classes to wrongly violate the Quality Rule "Avoid types that own disposable fields and are not disposable - 8086". This bug has now been fixed (Brushes are no excluded from the scope of this Quality Rule) and after an upgrade to CAST AIP 8.1.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
   <!-- For 8.2.0 -->
   <DELTA_QR_EXPLANATIONS>
     <QR_ID>592</QR_ID>
