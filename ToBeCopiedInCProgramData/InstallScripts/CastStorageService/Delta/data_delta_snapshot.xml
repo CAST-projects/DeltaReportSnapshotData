@@ -6072,16 +6072,6 @@
   </DELTA_QR_EXPLANATIONS>
   <!-- For 8.2.2 -->
   <DELTA_QR_EXPLANATIONS>
-    <QR_ID>4578</QR_ID>
-    <QR_DELTA_TYPE>2</QR_DELTA_TYPE>
-    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
-    <QR_NAME>Good use of Interfaces with collections as Method return types</QR_NAME>
-    <QR_VERSION>8.2.2</QR_VERSION>
-    <QR_SQL>DIAG_JAVA_ANA_METH_LAMB_TOTAL</QR_SQL>
-    <QR_DELTA_LINK>CASTonCAST</QR_DELTA_LINK>
-    <QR_DELTA_EXPLANATION>SQL Computation</QR_DELTA_EXPLANATION>
-  </DELTA_QR_EXPLANATIONS>
-  <DELTA_QR_EXPLANATIONS>
     <QR_ID>7262</QR_ID>
     <QR_DELTA_TYPE>2</QR_DELTA_TYPE>
     <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
@@ -6260,5 +6250,75 @@
     <QR_SQL>DIA_MANY_COUPLING003</QR_SQL>
     <QR_DELTA_LINK>CASTonCAST</QR_DELTA_LINK>
     <QR_DELTA_EXPLANATION>SQL Computation</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>4578</QR_ID>
+    <QR_DELTA_TYPE>2</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Good use of Interfaces with collections as Method return types</QR_NAME>
+    <QR_VERSION>8.2.2</QR_VERSION>
+    <QR_SQL>DIAG_JAVA_ANA_METH_LAMB_TOTAL</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.2#Changesinresultspostupgrade-8.2.2-GooduseofInterfaceswithcollectionsasMethodreturntypes-4578</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug that was introduced in CAST AIP 8.0.1 has now been fixed in CAST AIP 8.2.2. Therefore after an upgrade to CAST AIP 8.2.2 and the generation of a new snapshot, results for this Quality Rule may change, for example: there may be an increase in the number of violations returned by the rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7798</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Classes with a High Lack of Cohesion</QR_NAME>
+    <QR_VERSION>8.2.2</QR_VERSION>
+    <QR_SQL>DIA_MANY_COUPLING003</QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.2#Changesinresultspostupgrade-8.2.2-AvoidClasseswithaHighLackofCohesion-7798</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered which has meant that Java Enums are included in the scope of objects considered by the Quality Rule "Avoid Classes with a High Lack of Cohesion - 7798". The bug has now been fixed (Java Enums have been removed from the scope) and after an upgrade to CAST AIP 8.2.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7156</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Too Many Copy Pasted Artifacts</QR_NAME>
+    <QR_VERSION>8.2.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.2#Changesinresultspostupgrade-8.2.2-AvoidTooManyCopyPastedArtifacts-7156</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered in the way that this Quality Rule is calculated, which can lead to false violations of the rule (the number of failed checks may exceed the total number of checks). The bug has now been fixed and after an upgrade to CAST AIP 8.2.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>6110</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Controls must inherit from a userobject</QR_NAME>
+    <QR_VERSION>8.2.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.2#Changesinresultspostupgrade-8.2.2-Controlsmustinheritfromauserobject-6110</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered in the way that this Quality Rule is calculated, which can lead to false violations of the rule (objects that already inherit from a userobject are being flagged as violations). The bug has now been fixed and after an upgrade to CAST AIP 8.2.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7784</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid Artifacts with lines longer than X characters</QR_NAME>
+    <QR_VERSION>8.2.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.2#Changesinresultspostupgrade-8.2.2-AvoidArtifactswithlineslongerthanXcharacters-7784</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered whereby certain object types (listed below) were ignored by the internal Metrics Assistant during an analysis. This meant that data was not generated for these objects types in the context of the the "Avoid Artifacts with lines longer than X characters - 7784" Quality Rule. This bug has now been fixed and and after an upgrade to CAST AIP 8.2.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule with regard to different object types.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7420</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries with implicit conversions in the WHERE clause</QR_NAME>
+    <QR_VERSION>8.2.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.2#Changesinresultspostupgrade-8.2.2-AvoidSQLquerieswithimplicitconversionsintheWHEREclause-7420andAvoidSQLqueriesonXXLTableswithimplicitconversionsintheWHEREclause-7662</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that has resulted in false positives (i.e. violations are found but are not expected) for the above named Quality Rules. This bug has now been fixed and after an upgrade to CAST AIP 8.2.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - there will be less violations due to improved accuracy of the Quality Rules.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7662</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries on XXL Tables with implicit conversions in the WHERE clause</QR_NAME>
+    <QR_VERSION>8.2.2</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.2#Changesinresultspostupgrade-8.2.2-AvoidSQLquerieswithimplicitconversionsintheWHEREclause-7420andAvoidSQLqueriesonXXLTableswithimplicitconversionsintheWHEREclause-7662</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected that has resulted in false positives (i.e. violations are found but are not expected) for the above named Quality Rules. This bug has now been fixed and after an upgrade to CAST AIP 8.2.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - there will be less violations due to improved accuracy of the Quality Rules.</QR_DELTA_EXPLANATION>
   </DELTA_QR_EXPLANATIONS>
 </DATA>
