@@ -6321,4 +6321,65 @@
     <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.2#Changesinresultspostupgrade-8.2.2-AvoidSQLquerieswithimplicitconversionsintheWHEREclause-7420andAvoidSQLqueriesonXXLTableswithimplicitconversionsintheWHEREclause-7662</QR_DELTA_LINK>
     <QR_DELTA_EXPLANATION>A bug has been detected that has resulted in false positives (i.e. violations are found but are not expected) for the above named Quality Rules. This bug has now been fixed and after an upgrade to CAST AIP 8.2.2 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - there will be less violations due to improved accuracy of the Quality Rules.</QR_DELTA_EXPLANATION>
   </DELTA_QR_EXPLANATIONS>
+  <!-- For 8.2.3 -->
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8030</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Check alphanumeric data before moving it into numeric data</QR_NAME>
+    <QR_VERSION>8.2.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.3#Changesinresultspostupgrade-8.2.3-Checkalphanumericdatabeforemovingitintonumericdata-8030</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing the false violation of the Quality Rule "Check alphanumeric data before moving it into numeric data - 8030". The Quality Rule was falsely being violated when the syntax "pic x(01)" is used and "x" is written in lowercase. This bug has now been fixed (the Quality Rule will correctly interpret the use of lowercase "x") and after an upgrade to CAST AIP 8.2.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7902</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid SQL queries that no index can support</QR_NAME>
+    <QR_VERSION>8.2.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.3#Changesinresultspostupgrade-8.2.3-MultipleQualityRules/Metrics</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing the false violation of the multiple Quality Rules. The Quality Rules are falsely being violated when indexes covering the queries exist. This bug has now been fixed (subqueries are handled better) and after an upgrade to CAST AIP 8.2.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule/Metric.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7914</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid direct access to Database Tables</QR_NAME>
+    <QR_VERSION>8.2.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.3#Changesinresultspostupgrade-8.2.3-AvoiddirectaccesstoDatabaseTables-7914andDataAccessmustbebasedonStoredProcedureCalls-3616</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been introduced which has caused a large increase in violations (false positives) for this Qulaity Rule. This bug has now been fixed and after an upgrade to CAST AIP 8.2.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations but the accuracy is improved.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>3616</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Data Access must be based on Stored Procedure Calls</QR_NAME>
+    <QR_VERSION>8.2.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.3#Changesinresultspostupgrade-8.2.3-AvoiddirectaccesstoDatabaseTables-7914andDataAccessmustbebasedonStoredProcedureCalls-3616</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been introduced which has caused a large increase in violations (false positives) for this Qulaity Rule. This bug has now been fixed and after an upgrade to CAST AIP 8.2.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations but the accuracy is improved.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>8086</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid types that own disposable fields and are not disposable</QR_NAME>
+    <QR_VERSION>8.2.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.3#Changesinresultspostupgrade-8.2.3-Avoidtypesthatowndisposablefieldsandarenotdisposable-8086</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been detected which is causing Brushes classes to wrongly violate the Quality Rule "Avoid types that own disposable fields and are not disposable - 8086". This bug has now been fixed (Brushes are no excluded from the scope of this Quality Rule) and after an upgrade to CAST AIP 8.2.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule - you may see less violations.</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
+  <DELTA_QR_EXPLANATIONS>
+    <QR_ID>7424</QR_ID>
+    <QR_DELTA_TYPE>1</QR_DELTA_TYPE>
+    <QR_DELTA_FUNCTIONAL>0</QR_DELTA_FUNCTIONAL>
+    <QR_NAME>Avoid using SQL queries inside a loop</QR_NAME>
+    <QR_VERSION>8.2.3</QR_VERSION>
+    <QR_SQL></QR_SQL>
+    <QR_DELTA_LINK>http://doc.castsoftware.com/display/DOC82/Changes+in+results+post+upgrade+-+8.2.3#Changesinresultspostupgrade-8.2.3-AvoidusingSQLqueriesinsidealoop-7424</QR_DELTA_LINK>
+    <QR_DELTA_EXPLANATION>A bug has been discovered which has resulted in false negatives (i.e. violations are expected but not found) for the Quality Rule "Avoid using SQL queries inside a loop - 7424" when the analysis involves JEE (the class simpleJDBCTemplateSpring from the Framework 3.0) and SQL. The bug has now been fixed and after an upgrade to CAST AIP 8.2.3 and the generation of a post upgrade snapshot, results may differ for this Quality Rule, i.e. there will be an increased number of violations (improved accuracy).</QR_DELTA_EXPLANATION>
+  </DELTA_QR_EXPLANATIONS>
 </DATA>
